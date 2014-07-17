@@ -70,4 +70,5 @@ Route::get('login/fb/callback', function() {
 Route::get('logout', function() {
     Auth::logout();
     return Redirect::to('/');
+    
 });
